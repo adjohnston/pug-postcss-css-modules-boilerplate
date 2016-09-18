@@ -1,1 +1,1 @@
-echo 'I am working'
+pug ./src/templates --basedir ./src/includes --out ./dist
