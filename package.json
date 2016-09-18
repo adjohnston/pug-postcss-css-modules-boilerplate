@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build:html": "tasks/build-html"
+    "build": "tasks/build-css && tasks/build-html",
+    "build:html": "tasks/build-html",
+    "build:css": "tasks/build-css"
   },
   "repository": {
     "type": "git",
