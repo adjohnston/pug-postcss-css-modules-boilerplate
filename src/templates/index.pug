@@ -2,5 +2,7 @@ doctype html
 html
   head
     title Pug & PostCSS CSS Module Boilerplate
+    link(rel='stylesheet' href='css/index.css')
   body
     include /index-test.pug
+    p(class=css.test) This has a pink bg
