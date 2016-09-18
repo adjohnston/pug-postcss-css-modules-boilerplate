@@ -1,1 +1,1 @@
-pug ./src/templates --basedir ./src/includes --out ./dist
+cssModules=`cat ./src/css/index.css.json` && pug ./src/templates --basedir ./src/includes --out ./dist --obj "{css: ${cssModules}}"
