@@ -1,0 +1,1 @@
+postcss --use postcss-modules --postcss-modules.generateScopedName '[local]-[name]' --dir ./dist/css/ ./src/css/*.css
